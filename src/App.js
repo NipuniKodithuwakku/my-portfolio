@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
 import Main from './components/main';
-import './App.css';
-import Landing from './components/landingpage';
+import {Link} from 'react-router-dom';
+
+
 
 
 class App extends Component{
@@ -11,20 +12,21 @@ class App extends Component{
      
 <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header title="Nipuni Kodithuwakku" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/aboutme">About me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Nipuni Kodithuwakku">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/aboutme">About me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/contact">Contact</Link>
+                
             </Navigation>
         </Drawer>
         <Content>
