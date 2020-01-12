@@ -1,6 +1,33 @@
 
-.demo-big-content{
-  background-color: black;
-  color: white;
-}
+.avatar-img{
+  height: 250px;
+  width: 250px;
+  padding-top: 5em;
+  margin: 100px auto;
 
+}
+.banner-text{
+  background-color: bisque;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  padding-left:1em ;
+
+}
+.banner-text hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
+  color: black;
+  font-size: 20px;
+  padding: 1em;
+}
+ 
