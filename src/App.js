@@ -10,17 +10,18 @@ import './App.css';
 class App extends Component{
   render(){
     return(
-        <div style={{height: '750px', position: 'relative'}}>
-    <Layout style={{background: 'url(grey_back.jpg) center / cover'}}>
-        <Header transparent title="Nipuni Kodithuwakku" style={{color: 'black'}}>
+
+        <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title="Nipuni Kodithuwakku" scroll>
             <Navigation>
-                <Link to="/aboutme" style={{color: 'black'}}>About me</Link>
-                <Link to="/projects"style={{color: 'black'}}>Projects</Link>
-                <Link to="/resume"style={{color: 'black'}}>Resume</Link>
-                <Link to="/contact"style={{color: 'black'}}>Contact</Link>
+               <Link to="/aboutme" >About me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title" >
+        <Drawer title="Title">
             <Navigation>
                 <Link to="/aboutme">About me</Link>
                 <Link to="/projects">Projects</Link>
@@ -28,11 +29,34 @@ class App extends Component{
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
-        <Content >
-        <Main/>
+        <Content>
+            <Main/>
         </Content>
     </Layout>
 </div>
+//         <div style={{height: '300px', position: 'relative'}}>
+//     <Layout fixedHeader>
+//         <Header title={<span style={{ color: '#ddd' }}> <strong>Nipuni Kodithuwakku</strong></span>}>
+//             <Navigation>
+//                 <Link to="/aboutme" style={{color: 'black'}}>About me</Link>
+//                 <Link to="/projects"style={{color: 'black'}}>Projects</Link>
+//                 <Link to="/resume"style={{color: 'black'}}>Resume</Link>
+//                 <Link to="/contact"style={{color: 'black'}}>Contact</Link>
+//             </Navigation>
+//         </Header>
+//         <Drawer title="Title" >
+//             <Navigation>
+//                 <Link to="/aboutme">About me</Link>
+//                 <Link to="/projects">Projects</Link>
+//                 <Link to="/resume">Resume</Link>
+//                 <Link to="/contact">Contact</Link>
+//             </Navigation>
+//         </Drawer>
+//         <Content >
+//         <Main/>
+//         </Content>
+//     </Layout>
+// </div>
      
 
     )
