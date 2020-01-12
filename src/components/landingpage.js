@@ -7,12 +7,42 @@ class Landing extends Component{
             <div style={{width: '80%', margin: 'auto'}}>
             <Grid className="demo-grid">
                 <Cell col={12}>
-                    <img src=""  alt="Nipuni Kodiyhuwakku" className="avatar-img"/>
+                    <img src="./me.jpg"  alt="Nipuni Kodiyhuwakku" className="avatar-img"/>
                     <div className = "banner-text">
                         <h1>Full Stack Developer</h1>
 
                         <hr/>
                         <p>HTML | CSS | BOOTSTRAP |JAVASCRIPT | REACT | REACT NATIVE | FLUTTER | NODE JS | EXPRESS | MONGODB </p>
+                        <div className="social-links">
+
+                            {/*Linkedin*/ }       
+
+                            <a href="htttp://google.com" rel="noopener noreferrer" target="_blank" >
+                            <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                            </a>
+
+                            {/*Github*/ }
+
+                            <a href="htttp://google.com" rel="noopener noreferrer" target="_blank" >
+                            <i className="fa fa-github-square" aria-hidden="true"/>
+                            </a>
+
+                            {/*Stack-overflow*/}
+
+                            <a href="htttp://google.com" rel="noopener noreferrer" target="_blank" >
+                            <i className="fa fa-stack-overflow" aria-hidden="true"/>
+                            </a>
+
+
+                            {/*Facebook*/ }
+
+                            <a href="htttp://google.com" rel="noopener noreferrer" target="_blank" >
+                            <i className="fa fa-facebook-square" aria-hidden="true"/>
+                            </a>
+
+
+
+                        </div>
                     
                     </div>
                 

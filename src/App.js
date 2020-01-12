@@ -10,17 +10,17 @@ import './App.css';
 class App extends Component{
   render(){
     return(
-        <div style={{height: '600px', position: 'relative'}}>
-    <Layout style={{background: 'url(https://media.giphy.com/media/oRAR83fJVJkg8/giphy.gif) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+        <div style={{height: '750px', position: 'relative'}}>
+    <Layout style={{background: 'url(grey_back.jpg) center / cover'}}>
+        <Header transparent title="Nipuni Kodithuwakku" style={{color: 'black'}}>
             <Navigation>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/aboutme" style={{color: 'black'}}>About me</Link>
+                <Link to="/projects"style={{color: 'black'}}>Projects</Link>
+                <Link to="/resume"style={{color: 'black'}}>Resume</Link>
+                <Link to="/contact"style={{color: 'black'}}>Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Title" >
             <Navigation>
                 <Link to="/aboutme">About me</Link>
                 <Link to="/projects">Projects</Link>
