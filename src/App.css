@@ -67,4 +67,24 @@
   display: flex;
   
 }
+.contact-body{
+  margin: auto;
+  background: rgba(52, 52, 52, 0.8);
+  position: fixed; 
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  padding-top:2em ;
+
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 65%;
+  background: lightgray;
+  color: black;
+  border: 2px solid blue;
+  margin-bottom: 20px;
+}
  
