@@ -11,7 +11,16 @@ class Contact extends Component{
                 <img src="./contact.jpg" alt="contact me" style={{width:'250px',height:'250px'}}/>
                 
                 </Cell>
-                <Cell col={6}>half</Cell>
+                <Cell col={6}>
+                    <p><h3><i className="fa fa-phone-square" aria-hidden="true"></i>Telephone<br/>0763988752</h3></p>
+                    <p><h3><i className="fa fa-envelope" aria-hidden="true"></i>Email<br/>chandulakan123@gmail.com</h3></p>
+                    <p><h3><i className="fa fa-whatsapp" aria-hidden="true"></i>whatsapp</h3></p>
+                    <p><h3><i className="fa fa-commenting-o" aria-hidden="true"></i>Message</h3></p>
+
+                    
+                    
+                
+                </Cell>
             </Grid>
             </div>
            
