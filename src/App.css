@@ -87,4 +87,25 @@
   border: 2px solid blue;
   margin-bottom: 20px;
 }
+.contact-grid h2{
+  font-family:'Anton',sans-serif ;
+  font-weight: bold;
+}
+.contact-grid p{
+  font-family: 'oxygen',sans-serif;
+  font-weight: 300;
+
+}
  
+.contact-grid hr{
+  border-top:5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list p{
+  margin: auto;
+}
+.contact-list i{
+  font-size: 35px;
+  padding-right: 5rem;
+}
