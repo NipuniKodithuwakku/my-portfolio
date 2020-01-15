@@ -25,7 +25,7 @@ class Contact extends Component{
     <ListItemContent style={{fontSize:'25px',fontFamily:'Arial'}} ><i className="fa fa-envelope" aria-hidden="true"></i>chandulakan123@gmail.com</ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:'20px',fontFamily:'Arial'}} ><i className="fa fa-address-card" aria-hidden="true"></i>K.A.N chandula,<br/>Mahahena,<br/>Pallattara East,<br/>Ihala Beligalla</ListItemContent>
+    <ListItemContent style={{fontSize:'20px',fontFamily:'Arial'}} ><i className="fa fa-address-card" aria-hidden="true"></i>K.A.N chandula,Mahahena,Pallattara East,Ihala Beligalla</ListItemContent>
   </ListItem>
   
   

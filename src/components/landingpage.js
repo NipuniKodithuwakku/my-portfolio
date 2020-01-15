@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {Grid,Cell } from 'react-mdl';
+import Avatar from 'react-avatar';
 
 class Landing extends Component{
     render(){
@@ -7,7 +8,8 @@ class Landing extends Component{
             <div style={{width: '80%', margin: 'auto'}}>
             <Grid className="demo-grid">
                 <Cell col={12}>
-                    <img src="./me.jpg"  alt="Nipuni Kodiyhuwakku" className="avatar-img"/>
+                    {/* <img src="./me.jpg"  alt="Nipuni Kodiyhuwakku" className="avatar-img"/> */}
+                    <Avatar alt="Nipuni Kodithuwakku" src="./me.jpg" size="250px" round={true} margin-top='30px'/>
                     <div className = "banner-text">
                         <h1>Full Stack Developer</h1>
 

@@ -19,13 +19,7 @@
   text-align: center;
 }
 
-.avatar-img{
-  height: 300px;
-  width: 400px;
-  padding-top: 5em;
-  
 
-}
 .banner-text{
   background-color: lightblue;
   opacity: .8;
@@ -37,7 +31,7 @@
   font-size: 40px;
   color: black;
   font-weight: bold;
-  padding-left:1em ;
+  padding-left:.5em ;
 
 }
 .banner-text hr{
